@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/aliogutcen.github.io/static/css/main.4e9c0f0a.css",
+    "main.js": "/aliogutcen.github.io/static/js/main.2db2d775.js",
+    "static/media/3d-casual-life-young-man-in-headphones-sitting-with-laptop-and-waving.png": "/aliogutcen.github.io/static/media/3d-casual-life-young-man-in-headphones-sitting-with-laptop-and-waving.8c193785710cad80a360.png",
+    "index.html": "/aliogutcen.github.io/index.html",
+    "static/media/github.svg": "/aliogutcen.github.io/static/media/github.0955b3e7abe0e564670f31ccaba1ae94.svg",
+    "static/media/linkedin.svg": "/aliogutcen.github.io/static/media/linkedin.592f53d3d2603b0f22f7ebc59bad951e.svg",
+    "main.4e9c0f0a.css.map": "/aliogutcen.github.io/static/css/main.4e9c0f0a.css.map",
+    "main.2db2d775.js.map": "/aliogutcen.github.io/static/js/main.2db2d775.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4e9c0f0a.css",
+    "static/js/main.2db2d775.js"
+  ]
+}
