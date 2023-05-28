@@ -1,0 +1,141 @@
+.welcome {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 100px;
+  min-height: 100vh;
+
+  .welcome-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 30px;
+
+    .welcome-logo {
+      span {
+        font-weight: bolder;
+        font-size: 48px;
+      }
+    }
+
+    .menu {
+      display: flex;
+      list-style: none;
+      gap: 50px;
+
+      li {
+        font-size: 16px;
+        font-weight: 600;
+        color: #777;
+      }
+    }
+  }
+
+  .welcome-center {
+    display: flex;
+    margin: auto;
+
+    .welcome-info {
+      display: flex;
+      align-items: center;
+      gap: 200px;
+    }
+
+    .info-left {
+      display: flex;
+      flex-direction: column;
+      gap: 50px;
+
+      button {
+        width: 150px;
+        height: 50px;
+        border: 0.5px #474747 solid;
+        background-color: #f8f8f8;
+      }
+    }
+    .info-left-top {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      .based {
+        font-weight: 700;
+        font-size: 72px;
+      }
+      .about-info {
+        color: #474747;
+        font-size: 25px;
+      }
+    }
+    .info-right {
+      .avatar {
+        width: 400px;
+        height: auto;
+        animation: hareket 2s infinite;
+      }
+    }
+  }
+
+  .welcome-bottom {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    min-width: 74%;
+    margin: auto;
+    margin-bottom: 50px;
+
+    justify-content: flex-start;
+  }
+
+  .link-welcome {
+    display: flex;
+    flex-direction: column;
+    color: #474747;
+    font-size: 14px;
+    font-weight: 600;
+    color: #777;
+    max-width: 50px;
+    gap: 5px;
+  }
+  .link-icon {
+    width: 35px;
+    height: auto;
+  }
+
+  @keyframes hareket {
+    0% {
+      transform: translateY(-10px);
+    }
+
+    50% {
+      transform: translateY(20px);
+    }
+
+    100% {
+      transform: translateY(-10px);
+    }
+  }
+  @keyframes asagiHareket {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(20px);
+    }
+  }
+
+  .scroll-down {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    writing-mode: vertical-lr;
+    margin-bottom: 50px;
+    display: inline-block;
+    transition: transform 0.3s ease-in-out;
+  }
+  .scroll-down:hover {
+    animation: asagiHareket 2s infinite;
+    color: red;
+  }
+}
